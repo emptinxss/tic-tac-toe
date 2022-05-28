@@ -28,11 +28,12 @@ This project is about creating a tic tac toe game.
 
 You can learn:
 
-- work with vuecomponents
+- work with vue components
 - pass data from parent to child
 - create style and animations for the game
 - understand the logic of the game
 - getting familiar with composition API
+- local storage data
 
 ### Built with
 
