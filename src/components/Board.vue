@@ -8,16 +8,17 @@
       </span>
       's turn
     </h2>
+
     <h2 :class="`wins ${winner === 'X' ? 'x-color' : 'o-color'}`" v-if="winner">
       <span>
         {{
           winner === "X" ? playerName : winner === "O" ? opponentName : "none"
         }}
       </span>
-
       <span> wins </span>
     </h2>
-    <h2 class="wins tie" v-if="tie && !winner"><span> TIE</span></h2>
+    <h2 class="wins tie" v-if="tie && !winner"><span>TIE</span></h2>
+
     <div class="container">
       <div class="board">
         <div class="row" v-for="(row, x) in boards" :key="x">
@@ -181,10 +182,6 @@ export default {
   border-right: 0px;
 }
 
-.cell:hover {
-  background-color: rgba(41, 50, 64, 0.1);
-}
-
 .turn {
   margin: 1rem 1rem 3rem 1rem;
 }
@@ -236,12 +233,6 @@ export default {
   .cell {
     width: 200px;
     height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 7rem;
-    font-family: "Permanent Marker", sans-serif;
   }
   .btn {
     margin-top: 2rem;
@@ -268,6 +259,11 @@ export default {
   .cell {
     width: 80px;
     height: 80px;
+  }
+  .wins {
+    margin: 1rem 1rem 2rem 1rem;
+    font-size: 3rem;
+    text-shadow: none;
   }
 }
 </style>
