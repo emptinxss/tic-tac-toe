@@ -220,6 +220,7 @@ export default {
 }
 .tie {
   color: white;
+  margin: 2px;
 }
 @media screen and (max-width: 1630px) {
   .container .c-right {
