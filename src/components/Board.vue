@@ -260,5 +260,9 @@ export default {
     font-size: 3rem;
     text-shadow: none;
   }
+  .tie {
+    color: #293240;
+    margin: 2px;
+  }
 }
 </style>
