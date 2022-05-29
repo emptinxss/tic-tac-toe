@@ -104,9 +104,15 @@ export default {
     }
 
     const addMove = (x, y) => {
+      //return winner
       if (winner.value) return;
+
+      //return tie
       if (tie.value) return;
+
+      //check override player's sign
       if (boards.value[x][y] !== "") return;
+
       boards.value[x][y] = player.value;
       player.value = player.value === "X" ? "O" : "X";
     };
