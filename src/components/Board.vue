@@ -134,8 +134,7 @@ export default {
   },
 };
 </script>
-
-<style>
+<style scoped>
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -212,7 +211,6 @@ export default {
 .x-color {
   color: #f76d6e;
 }
-
 .o-color {
   color: #3aaea9;
 }
