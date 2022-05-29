@@ -124,17 +124,20 @@ export default {
         localStorage.setItem("history", JSON.stringify(history.value));
       }
     });
+
     onMounted(() => {
       history.value = JSON.parse(localStorage.getItem("history")) ?? [];
       if (props.delHistory === true) {
         history.value.length = 0;
       }
     });
+
     return { player, boards, winner, addMove, history, tie };
   },
 };
 </script>
-<style scoped>
+
+<style>
 .container {
   display: flex;
   flex-wrap: wrap;
