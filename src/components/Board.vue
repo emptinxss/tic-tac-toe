@@ -135,6 +135,7 @@ export default {
     return { player, boards, winner, addMove, history, tie };
   },
 };
+/* not recognized */
 </script>
 
 <style>
