@@ -216,11 +216,11 @@ export default {
   font-size: 1.2rem;
 }
 .x-color {
-  color: /* #ff8521 */ #f76d6e;
+  color: #f76d6e;
 }
 
 .o-color {
-  color: #3aaea9; /* #00954a; */
+  color: #3aaea9;
 }
 .tie {
   color: white;
