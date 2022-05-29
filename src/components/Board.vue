@@ -154,7 +154,6 @@ export default {
   margin-left: -500px;
   animation: 1s ease-out 0s 1 slideInFromRight;
 }
-
 .row {
   display: flex;
 }
@@ -177,15 +176,12 @@ export default {
 .column {
   border-right: 1px solid #293240;
 }
-
 .cell:last-of-type {
   border-right: 0px;
 }
-
 .turn {
   margin: 1rem 1rem 3rem 1rem;
 }
-
 .wins {
   margin: 1rem 1rem 2rem 1rem;
   font-size: 3rem;
@@ -195,7 +191,6 @@ export default {
     -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1),
     -0.03em 0 0 rgba(0, 0, 0, 1);
 }
-
 .wins span {
   transform: scale(0.9);
   display: inline-block;
@@ -208,7 +203,6 @@ export default {
   animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards
     infinite alternate;
 }
-
 .c-right h2 {
   font-size: 3rem;
 }
@@ -238,7 +232,6 @@ export default {
     margin-top: 2rem;
   }
 }
-
 @media screen and (max-width: 1300px) {
   .container .c-right {
     width: 100%;
@@ -254,7 +247,6 @@ export default {
     margin-top: 2rem;
   }
 }
-
 @media screen and (max-width: 400px) {
   .cell {
     width: 80px;
